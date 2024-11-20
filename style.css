@@ -173,6 +173,41 @@ main .page3 .bottom h4 span {
   font-family: font-1;
   font-size: 0.8em;
 }
+main .page4 {
+  background-color: #ffffff;
+  width: 100%;
+}
+main .page4 .page4-container {
+  padding: 0 4em;
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+main .page4 .page4-container > * {
+  flex-basis: 50%;
+}
+main .page4 .page4-container .card {
+  padding: 0 2em;
+}
+main .page4 .page4-container .card .card-img {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .page4 .page4-container .card .card-img img {
+  width: 100%;
+}
+main .page4 .page4-container .card .card-img i {
+  font-size: 1.5em;
+}
+main .page4 .page4-container .card .card-footer .content {
+  display: flex;
+  justify-content: space-between;
+}
+main .page4 .page4-container .card .card-footer .content p {
+  width: 45%;
+}
 
 @media (max-width: 600px) {
   .bg .video2 {
@@ -201,5 +236,8 @@ main .page3 .bottom h4 span {
   main .page3 .bottom p {
     text-align: center;
     font-size: 1.4em;
+  }
+  main .page4 .page4-container {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
